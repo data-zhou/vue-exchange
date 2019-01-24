@@ -1,0 +1,103 @@
+html,body{
+    font-size: 14px;
+    background-color: #ebecf0;
+    line-height: 24px;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans - serif;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 100%;
+    font-weight: 400;
+}
+body,button,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,td,textarea,th,ul {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+button,input,optgroup,option,select,textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    outline: 0;
+}
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+input{
+    border:0;
+}
+a {
+    text-decoration: none;
+}
+a:active,a:hover {
+    outline: 0
+}
+i,em{
+    font-style: normal;
+}
+ul,li,ol,li{
+    list-style: none;
+}
+#app{
+    font-family: 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #666;
+}
+.red{
+    color:#F00E0E;
+}
+.blue{
+    color:#5877FF;
+}
+.green{
+    color: green;
+}
+.box-shadow{
+    box-shadow: 0 0 12px #999;
+}
+.box-bgshadow{
+    width:1200px;
+    margin: 0 auto 42px auto;
+    background-color: #fff;
+    box-shadow: 0 0 12px #999;
+    border-radius: 5px;
+    overflow: hidden;
+}
+/* 交易中心 */
+.mt10{
+    margin-top: 10px;
+}
+.trans-top{
+    width: 100%;
+    height:60px;
+    background-color: #333752;
+    overflow: hidden;
+}
+.pl5{
+    padding-left: 5px;
+}
+.echart-blue{
+    color: #5877FF;
+}
+.echart-red{
+    color: #FC5558;
+}
+.echart-green{
+    color: #3CBC98;
+}
+.echart-white{
+    color:#fff;
+}
+.echart-tit{
+    color:#aaafd0;
+}
